@@ -20,7 +20,7 @@ form.addEventListener('submit', async (e) => {
     await db.put(doc);
     form.reset();
     refresh();
-})
+});
 
 async function refresh() {
     const res = await db.allDocs({include_docs: true, descending: true});
