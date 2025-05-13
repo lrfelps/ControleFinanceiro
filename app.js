@@ -45,7 +45,7 @@ async function refresh() {
         });
 
         TotalDaily.textContent = `R$ ${totalD.toFixed(2)}`; 
-        total.textContent = `R$ ${totalG.toFixed(2)}`; 
+        TotalSum.textContent = `R$ ${totalG.toFixed(2)}`; 
 };
 
 
