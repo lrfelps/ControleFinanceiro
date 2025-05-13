@@ -13,7 +13,7 @@ form.addEventListener('submit', async (e) => {
     const date = today;
 
     const doc = {
-        _id: new new Date().toISOString(),
+        _id: new Date().toISOString(),
         desc, value, recordtype, date
     };
 
